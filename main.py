@@ -5,7 +5,7 @@ intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-pveDamage = https://discord.com/channels/432275331794206720/1229880149525266523/1229880149525266523
+pveDamage = "https://discord.com/channels/432275331794206720/1229880149525266523/1229880149525266523"
 
 @tree.command(
     name="pvedamage",
