@@ -29,7 +29,7 @@ garden = "https://discord.com/channels/432275331794206720/1229100329539473519"
 
 
 @tree.command(
-    name="pvedamage",
+    name="pve_damage",
     description="A link to PvE Damage thread",
     guild=discord.Object(id=432275331794206720)
 )
@@ -45,7 +45,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"If you need help on your journey please see {destiny_utilities} for information ranging from Damage metas to encounter and activity guides.")
 
 @tree.command(
-    name="Movement Tec",
+    name="movement_tec",
     description="A link to guides on Movement Tec",
     guild=discord.Object(id=432275331794206720)
 )
@@ -53,7 +53,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For more information on the best Movement Tec please see {mvmnttech}")
 
 @tree.command(
-    name="PvP Utilities",
+    name="pvp_utilities",
     description="A link to all things PvP",
     guild=discord.Object(id=432275331794206720)
 )
@@ -61,7 +61,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For the latest PvP metas check out {pvputilities}")
 
 @tree.command(
-    name="Warlards Ruin",
+    name="warlards_ruin",
     description="A link to Warlords Ruin guides",
     guild=discord.Object(id=432275331794206720)
 )
@@ -69,7 +69,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Warlords Ruin please see{warlordsruin}")
 
 @tree.command(
-    name="Ghosts of the Deep",
+    name="ghosts_of_the_deep",
     description="A link to guides for Ghosts of the Deep dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -77,7 +77,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Ghosts of the Deep dungeon please see{GotD}")
 
 @tree.command(
-    name="Spire of the Watcher",
+    name="spire_of_the_watcher",
     description="A linkg to guides for Spire of the Watcher dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -85,7 +85,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Spire of the Watcher please see{spire}")
 
 @tree.command(
-    name="Root of Nightmares",
+    name="root_of_nightmares",
     description="A link to guides for Root of Nightmares",
     guild=discord.Object(id=432275331794206720)
 )
@@ -93,7 +93,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Root of Nightmares please see {RoN}")
 
 @tree.command(
-    name="Grasp of Avarice",
+    name="grasp_of_avarice",
     description="A link to guides for Grasp of Avaraice dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -101,7 +101,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Grasp of Avarice dungeon please see {grasp}")
 
 @tree.command(
-    name="Duality",
+    name="duality",
     description="A link to guides for Duality dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -109,7 +109,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Duality dungeon please see {duality}")
 
 @tree.command(
-    name="Prophecy",
+    name="prophecy",
     description="A link to guides for Prophecy dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -117,7 +117,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Prophecy dungeon please see{prophecy}")
 
 @tree.command(
-    name="Pit of Heresy",
+    name="pit_of_heresy",
     description="A link to guides for Pit of Heresy dungeon",
     guild=discord.Object(id=432275331794206720)
 )
@@ -125,7 +125,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Pit of Heresy dungeon please see{pit}")
 
 @tree.command(
-    name="Last Wish",
+    name="last_wish",
     description="A link to guides for Last Wish raid",
     guild=discord.Object(id=432275331794206720)
 )
@@ -133,7 +133,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Last Wish raid please see {lastwish}")
 
 @tree.command(
-    name="Shattered Throne",
+    name="shattered_throne",
     description="A link to guides for Shattered Throne dungeon ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -141,7 +141,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Shattered throne please see {shatteredthrone}")
 
 @tree.command(
-    name="Crota's End",
+    name="crotas_end",
     description="A link to guides for Crota's End raid ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -149,7 +149,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Crota's End raid please see {crota}")
 
 @tree.command(
-    name="Vow of the Disciple",
+    name="vow_of_the_disciple",
     description="A link to guides for Vow of the Disciple raid ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -157,7 +157,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Vow of the Disciple raid please see {vow}")
 
 @tree.command(
-    name="Kingsfall",
+    name="kingsfall",
     description="A link to guides for Kingsfall raid ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -165,7 +165,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Kingsfall raid please see {kingsfall}")
 
 @tree.command(
-    name="Deep Stone Crypt",
+    name="deep_stone_crypt",
     description="A link to guides for Deep Stone Crypt raid ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -173,7 +173,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Deep Stone Crypt raid please see {dsc}")
 
 @tree.command(
-    name="Vault of Glass",
+    name="vault_of_glass",
     description="A link to guides for Vault of Glass raid ",
     guild=discord.Object(id=432275331794206720)
 )
@@ -181,7 +181,7 @@ async def pveDamage_command(interaction):
     await interaction.response.send_message(f"For help with Vault of Glass raid please see {vog}")
 
 @tree.command(
-    name="Garden of Salvation",
+    name="garden_of_salvation",
     description="A link to guides for Garden of Salvation raid ",
     guild=discord.Object(id=432275331794206720)
 )
