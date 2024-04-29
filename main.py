@@ -27,7 +27,6 @@ vog = "https://discord.com/channels/432275331794206720/1229104380226179134"
 garden = "https://discord.com/channels/432275331794206720/1229100329539473519"
 
 
-
 @tree.command(
     name="pve_damage",
     description="A link to PvE Damage thread",
