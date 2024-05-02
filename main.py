@@ -83,9 +83,9 @@ channel_list = [432275331794206722, 685293052314517530]
     app_commands.Choice(name="Deep Stone Crypt", value= "dsc" ),
     app_commands.Choice(name="Vault of Glass", value= "vog" ),
     app_commands.Choice(name="Garden of Salvation", value= "garden" )])
-async def link_command(interaction, activity):
+async def link_command(interaction, activity: app_commands.Choice[str]):
     if interaction.channel.id in channel_list:
-        await interaction.response.send_message(messages[activity])
+        await interaction.response.send_message(messages[activity.value], ephemeral=True)
     else:
         await interaction.response.send_message("You can't use this command in this channel.", ephemeral=True)
 
